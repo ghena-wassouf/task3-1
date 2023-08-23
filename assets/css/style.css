@@ -1,0 +1,292 @@
+*{
+    padding: o;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    width:100%;
+    background-color: rgb(23, 14, 45);
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    color: white;
+    padding: 20px;
+    flex-wrap: wrap;
+    font-size: 15px;
+    z-index: 2;
+}
+nav ul  {
+    list-style: none;
+     
+}
+.NV{
+    color: azure;
+    gap: 20px;
+}
+nav ul a {
+    font-size: 20;
+    color: azure;
+    text-decoration: none;
+}
+.logo{
+   width: max-content;
+   flex-shrink: 0;
+}
+nav button{
+    display: none;
+}
+.hero{
+    height: 100vh;
+    font-size: 30px;
+    color: white;
+}
+
+.hero .pic{
+    border-radius: 100%;
+    padding-top: 150px;
+    position: relative;
+ }
+ .hero .circle {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background-color: rgb(23, 14, 45);
+ }
+.hero .pic img{
+    width:220px;
+    position: absolute;
+    top: -49px;
+   
+}
+
+.hero h1{
+    align-items: center;
+}
+#portfolio{
+}
+#portfolio h2,#contactus h2{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(23, 14, 45) ;
+
+}
+#portfolio .icon{
+    color: rgb(23, 14, 45);
+    width: max-content;
+    margin: 0 auto;
+}
+#portfolio .container {
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+#portfolio .container .card{
+    margin: 10px;
+    width: 356px;
+    height: 256px;
+    border-radius: 10px;
+    background-color: aqua;
+    position: relative;
+}
+#portfolio .container .card .circle{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: yellow;
+    border-radius: 50%;
+}
+#portfolio .container .card .circle img{
+    width: 125px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#aboutus h2{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+ .DAU{
+    max-width: 50vw;
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    gap: 20px;
+}
+#aboutus h1,#aboutus .icon,#aboutus p{
+    color: white;
+
+    
+}
+.Download input{
+    text-size-adjust: 30px;
+    width:max-content;
+    background-color: aquamarine;
+    border-radius: 10px;
+    color: white;
+    border-color: white;
+    padding : 20px;
+
+}
+
+.Fot{
+    padding: 30px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aquamarine;
+    margin-top: 30px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.home , .iconWeb , .work{
+    width: 270px;
+    margin-top: 60px;
+}
+
+
+.home h2, .iconWeb h2, .work h2{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.location p{
+    margin: 10px;
+    font-weight:500;
+}
+.around_web h2{
+    margin-bottom: 30px;
+}
+.around_web a{ 
+    color: white;
+    border-radius: 100%;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 100%;
+    border: 2px solid white;
+}
+.links div a{
+    color: white;
+}
+
+.sec{
+   max-width: 100wv;
+    height: 100hv;
+    padding: 15px; 
+    background-color: aquamarine;
+    margin: 30px auto;
+}
+.one {
+    background-color: white;
+ 
+}
+
+.flex{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.alin{
+    flex-direction: column;
+    align-items: center;
+    
+}
+/**/
+.AllLines{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.lineBefor ,
+.lineAfter {
+    margin: 10px;
+    height: 2px;
+    width: 100px;
+    background-color: white;
+}
+.AllLines1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(23, 14, 45);
+}
+.lineBefor1,
+.lineAfter1 {
+    margin: 10px;
+    height: 2px;
+    width: 100px;
+    background-color: rgb(23, 14, 45);
+}
+.copy{
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+    font-size: 13px;
+    text-align: center;
+    background-color:rgb(73, 223, 173);
+}
+#fname ,#lname {
+    border: none;
+    border-bottom: 3px solid aquamarine;
+}
+textarea{
+    border: none;
+    border-bottom: 3px solid aquamarine;
+}
+.send{
+    background-color: rgb(23, 14, 45);
+    padding: 10px;
+    border-radius: 30%;
+    color: white;
+}
+@media only screen and (max-width: 992px){
+    .nav{
+        position: static;
+    }
+    .AllLines{
+        margin: 50px;
+    }
+    .navli{
+        font-size: 13px;
+        padding: 0px;
+        display: flex;
+        align-items: flex-start;
+    }
+
+     .hero{
+        font-size: 15px;
+        height: 700px;
+    }
+    .hero h1{
+      align-items: center;
+    }
+    h1{
+    }
+    .titleH2{
+        font-size:20px;
+    }
+}
